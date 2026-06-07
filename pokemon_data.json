@@ -1,0 +1,239 @@
+{
+  "player": 1133,
+  "teams": [
+    {
+      "name": "Yes",
+      "pokemons": [
+        {
+          "name": "Kartana",
+          "species": "Kartana",
+          "types": [
+            "Grass",
+            "Steel"
+          ],
+          "base_stats": {
+            "hp": 59,
+            "atk": 181,
+            "def": 131,
+            "spa": 59,
+            "spd": 31,
+            "spe": 109
+          },
+          "moves": [
+            "Close Combat",
+            "Swords Dance",
+            "Leaf Blade",
+            "Sacred Sword"
+          ],
+          "item": "Focus Sash",
+          "ability": "Justified"
+        },
+        {
+          "name": "Blissey",
+          "species": "Blissey",
+          "types": [
+            "Normal"
+          ],
+          "base_stats": {
+            "hp": 255,
+            "atk": 10,
+            "def": 10,
+            "spa": 75,
+            "spd": 135,
+            "spe": 55
+          },
+          "moves": [
+            "Flamethrower",
+            "Thunder Wave",
+            "Toxic",
+            "Ice Beam"
+          ],
+          "item": "Flame Orb",
+          "ability": "Serene Grace"
+        },
+        {
+          "name": "Ferrothorn",
+          "species": "Ferrothorn",
+          "types": [
+            "Grass",
+            "Steel"
+          ],
+          "base_stats": {
+            "hp": 91,
+            "atk": 124,
+            "def": 116,
+            "spa": 70,
+            "spd": 116,
+            "spe": 20
+          },
+          "moves": [
+            "Gyro Ball",
+            "Toxic",
+            "Protect",
+            "Stealth Rock"
+          ],
+          "item": "Leftovers",
+          "ability": "Iron Barbs"
+        },
+        {
+          "name": "Groudon-Primal",
+          "species": "Groudon-Primal",
+          "types": [
+            "Ground",
+            "Fire"
+          ],
+          "base_stats": {
+            "hp": 100,
+            "atk": 180,
+            "def": 160,
+            "spa": 150,
+            "spd": 90,
+            "spe": 90
+          },
+          "moves": [
+            "Precipice Blades",
+            "Stealth Rock",
+            "Stone Edge",
+            "Protect"
+          ],
+          "item": "Red Orb",
+          "ability": "Pressure"
+        },
+        {
+          "name": "Palkia-Origin",
+          "species": "Palkia-Origin",
+          "types": [
+            "Water",
+            "Dragon"
+          ],
+          "base_stats": {
+            "hp": 90,
+            "atk": 120,
+            "def": 100,
+            "spa": 150,
+            "spd": 120,
+            "spe": 100
+          },
+          "moves": [
+            "Dragon Pulse",
+            "Protect",
+            "Thunderbolt",
+            "Hydro Pump"
+          ],
+          "item": "Choice Specs",
+          "ability": "Pressure"
+        },
+        {
+          "name": "Necrozma-Dusk-Mane",
+          "species": "Necrozma-Dusk-Mane",
+          "types": [
+            "Steel",
+            "Psychic"
+          ],
+          "base_stats": {
+            "hp": 97,
+            "atk": 157,
+            "def": 127,
+            "spa": 113,
+            "spd": 109,
+            "spe": 77
+          },
+          "moves": [
+            "Sunsteel Strike",
+            "Meteor Beam",
+            "Swords Dance",
+            "Iron Head"
+          ],
+          "item": "Weakness Policy",
+          "ability": "Pressure"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "result": "win",
+      "opponent_rating": 1200,
+      "team": "Yes",
+      "opponent_team": [
+        "Blissey",
+        "Glimmora",
+        "Heatran",
+        "Chansey",
+        "Toxapex",
+        "Zapdos"
+      ],
+      "rating_change": 24
+    },
+    {
+      "result": "win",
+      "opponent_rating": 1200,
+      "team": "Yes",
+      "opponent_team": [
+        "Blissey",
+        "Clefable",
+        "Glimmora",
+        "Scizor",
+        "Zapdos",
+        "Grimmsnarl"
+      ],
+      "rating_change": 23
+    },
+    {
+      "result": "win",
+      "opponent_rating": 1200,
+      "team": "Yes",
+      "opponent_team": [
+        "Corviknight",
+        "Ferrothorn",
+        "Zapdos",
+        "Kartana",
+        "Volcarona",
+        "Heatran"
+      ],
+      "rating_change": 23
+    },
+    {
+      "result": "win",
+      "opponent_rating": 1200,
+      "team": "Yes",
+      "opponent_team": [
+        "Toxapex",
+        "Landorus-Therian",
+        "Chansey",
+        "Glimmora",
+        "Heatran",
+        "Scizor"
+      ],
+      "rating_change": 22
+    },
+    {
+      "result": "win",
+      "opponent_rating": 1200,
+      "team": "Yes",
+      "opponent_team": [
+        "Volcarona",
+        "Ferrothorn",
+        "Corviknight",
+        "Tapu Koko",
+        "Glimmora",
+        "Landorus-Therian"
+      ],
+      "rating_change": 21
+    },
+    {
+      "result": "win",
+      "opponent_rating": 1200,
+      "team": "Yes",
+      "opponent_team": [
+        "Zapdos",
+        "Clefable",
+        "Tapu Koko",
+        "Landorus-Therian",
+        "Heatran",
+        "Corviknight"
+      ],
+      "rating_change": 20
+    }
+  ]
+}
