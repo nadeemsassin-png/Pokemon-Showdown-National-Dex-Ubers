@@ -58,24 +58,24 @@ NO_LIFER_QUALITY = 1.0
 # Type chart covers all major interactions.
 # Values: 2.0 = super effective, 0.5 = not very effective, 0.0 = immune.
 TYPE_CHART = {
-    'Normal':   {'Rock': 0.5, 'Ghost': 0.0, 'Steel': 0.5},
-    'Fire':     {'Fire': 0.5, 'Water': 0.5, 'Grass': 2.0, 'Ice': 2.0, 'Bug': 2.0, 'Rock': 0.5, 'Dragon': 0.5, 'Steel': 2.0},
-    'Water':    {'Fire': 2.0, 'Water': 0.5, 'Grass': 0.5, 'Ground': 2.0, 'Rock': 2.0, 'Dragon': 0.5},
+    'Normal': {'Rock': 0.5, 'Ghost': 0.0, 'Steel': 0.5},
+    'Fire': {'Fire': 0.5, 'Water': 0.5, 'Grass': 2.0, 'Ice': 2.0, 'Bug': 2.0, 'Rock': 0.5, 'Dragon': 0.5, 'Steel': 2.0},
+    'Water': {'Fire': 2.0, 'Water': 0.5, 'Grass': 0.5, 'Ground': 2.0, 'Rock': 2.0, 'Dragon': 0.5},
     'Electric': {'Water': 2.0, 'Electric': 0.5, 'Grass': 0.5, 'Ground': 0.0, 'Flying': 2.0, 'Dragon': 0.5},
-    'Grass':    {'Fire': 0.5, 'Water': 2.0, 'Grass': 0.5, 'Poison': 0.5, 'Ground': 2.0, 'Flying': 0.5, 'Bug': 0.5, 'Rock': 2.0, 'Dragon': 0.5, 'Steel': 0.5},
-    'Ice':      {'Fire': 0.5, 'Water': 0.5, 'Grass': 2.0, 'Ground': 2.0, 'Flying': 2.0, 'Dragon': 2.0, 'Steel': 0.5},
+    'Grass': {'Fire': 0.5, 'Water': 2.0, 'Grass': 0.5, 'Poison': 0.5, 'Ground': 2.0, 'Flying': 0.5, 'Bug': 0.5, 'Rock': 2.0, 'Dragon': 0.5, 'Steel': 0.5},
+    'Ice': {'Fire': 0.5, 'Water': 0.5, 'Grass': 2.0, 'Ground': 2.0, 'Flying': 2.0, 'Dragon': 2.0, 'Steel': 0.5},
     'Fighting': {'Normal': 2.0, 'Ice': 2.0, 'Poison': 0.5, 'Flying': 0.5, 'Psychic': 0.5, 'Bug': 0.5, 'Rock': 2.0, 'Ghost': 0.0, 'Dark': 2.0, 'Steel': 2.0, 'Fairy': 0.5},
-    'Poison':   {'Grass': 2.0, 'Poison': 0.5, 'Ground': 0.5, 'Rock': 0.5, 'Ghost': 0.5, 'Steel': 0.0, 'Fairy': 2.0},
-    'Ground':   {'Fire': 2.0, 'Electric': 2.0, 'Grass': 0.5, 'Poison': 2.0, 'Flying': 0.0, 'Bug': 0.5, 'Rock': 2.0, 'Steel': 2.0},
-    'Flying':   {'Electric': 0.5, 'Grass': 2.0, 'Fighting': 2.0, 'Bug': 2.0, 'Rock': 0.5, 'Steel': 0.5},
-    'Psychic':  {'Fighting': 2.0, 'Poison': 2.0, 'Psychic': 0.5, 'Dark': 0.0, 'Steel': 0.5},
-    'Bug':      {'Fire': 0.5, 'Grass': 2.0, 'Fighting': 0.5, 'Poison': 0.5, 'Flying': 0.5, 'Psychic': 2.0, 'Ghost': 0.5, 'Dark': 2.0, 'Steel': 0.5, 'Fairy': 0.5},
-    'Rock':     {'Fire': 2.0, 'Ice': 2.0, 'Fighting': 0.5, 'Ground': 0.5, 'Flying': 2.0, 'Bug': 2.0, 'Steel': 0.5},
-    'Ghost':    {'Normal': 0.0, 'Psychic': 2.0, 'Ghost': 2.0, 'Dark': 0.5},
-    'Dragon':   {'Dragon': 2.0, 'Steel': 0.5, 'Fairy': 0.0},
-    'Dark':     {'Fighting': 0.5, 'Psychic': 2.0, 'Ghost': 2.0, 'Dark': 0.5, 'Fairy': 0.5},
-    'Steel':    {'Fire': 0.5, 'Water': 0.5, 'Electric': 0.5, 'Ice': 2.0, 'Rock': 2.0, 'Fairy': 2.0, 'Steel': 0.5},
-    'Fairy':    {'Fire': 0.5, 'Fighting': 2.0, 'Poison': 0.5, 'Dragon': 2.0, 'Dark': 2.0, 'Steel': 0.5},
+    'Poison': {'Grass': 2.0, 'Poison': 0.5, 'Ground': 0.5, 'Rock': 0.5, 'Ghost': 0.5, 'Steel': 0.0, 'Fairy': 2.0},
+    'Ground': {'Fire': 2.0, 'Electric': 2.0, 'Grass': 0.5, 'Poison': 2.0, 'Flying': 0.0, 'Bug': 0.5, 'Rock': 2.0, 'Steel': 2.0},
+    'Flying': {'Electric': 0.5, 'Grass': 2.0, 'Fighting': 2.0, 'Bug': 2.0, 'Rock': 0.5, 'Steel': 0.5},
+    'Psychic': {'Fighting': 2.0, 'Poison': 2.0, 'Psychic': 0.5, 'Dark': 0.0, 'Steel': 0.5},
+    'Bug': {'Fire': 0.5, 'Grass': 2.0, 'Fighting': 0.5, 'Poison': 0.5, 'Flying': 0.5, 'Psychic': 2.0, 'Ghost': 0.5, 'Dark': 2.0, 'Steel': 0.5, 'Fairy': 0.5},
+    'Rock': {'Fire': 2.0, 'Ice': 2.0, 'Fighting': 0.5, 'Ground': 0.5, 'Flying': 2.0, 'Bug': 2.0, 'Steel': 0.5},
+    'Ghost': {'Normal': 0.0, 'Psychic': 2.0, 'Ghost': 2.0, 'Dark': 0.5},
+    'Dragon': {'Dragon': 2.0, 'Steel': 0.5, 'Fairy': 0.0},
+    'Dark': {'Fighting': 0.5, 'Psychic': 2.0, 'Ghost': 2.0, 'Dark': 0.5, 'Fairy': 0.5},
+    'Steel': {'Fire': 0.5, 'Water': 0.5, 'Electric': 0.5, 'Ice': 2.0, 'Rock': 2.0, 'Fairy': 2.0, 'Steel': 0.5},
+    'Fairy': {'Fire': 0.5, 'Fighting': 2.0, 'Poison': 0.5, 'Dragon': 2.0, 'Dark': 2.0, 'Steel': 0.5},
 }
 
 # Choice items that lock the user into one move until they switch out.
@@ -216,21 +216,21 @@ class Move:
                  priority=0, target='normal', recoil=0, heal=0,
                  status=None, status_chance=0, boosts=None, self_boosts=None,
                  always_hit=False):
-        self.name         = name
-        self.type         = mtype
-        self.category     = category
-        self.power        = power
-        self.accuracy     = accuracy
-        self.pp           = pp
-        self.priority     = priority
-        self.target       = target
-        self.recoil       = recoil
-        self.heal         = heal
-        self.status       = status
+        self.name = name
+        self.type = mtype
+        self.category = category
+        self.power = power
+        self.accuracy = accuracy
+        self.pp = pp
+        self.priority = priority
+        self.target = target
+        self.recoil = recoil
+        self.heal = heal
+        self.status = status
         self.status_chance= status_chance
-        self.boosts       = boosts or {}
-        self.self_boosts  = self_boosts or {}
-        self.always_hit   = always_hit
+        self.boosts = boosts or {}
+        self.self_boosts = self_boosts or {}
+        self.always_hit = always_hit
 
 
 # ─────────────────────────────────────────────────────────────
@@ -240,13 +240,13 @@ class Move:
 class Pokemon:
     def __init__(self, nickname, species, types, base_stats, moves,
                  item='Leftovers', ability='Pressure'):
-        self.nickname  = nickname
-        self.species   = species
-        self.types     = types
+        self.nickname = nickname
+        self.species = species
+        self.types = types
         self.base_stats= base_stats
-        self.level     = 100
-        self.item      = item
-        self.ability   = ability
+        self.level = 100
+        self.item = item
+        self.ability = ability
 
         self.ivs = {s: 31  for s in ['hp','atk','def','spa','spd','spe']}
         self.evs = {s: 252 for s in ['hp','atk','def','spa','spd','spe']}
@@ -260,13 +260,13 @@ class Pokemon:
             'spe': calc_stat(base_stats['spe'], self.ivs['spe'], self.evs['spe'], self.level),
         }
 
-        self.current_hp    = self.stats['hp']
-        self.boosts        = {s: 0 for s in ['atk','def','spa','spd','spe','accuracy','evasion']}
-        self.status        = None
-        self.status_counter= 0
-        self.sleep_turns   = 0   # how many turns of sleep remain
-        self.volatiles     = {}
-        self.fainted       = False
+        self.current_hp = self.stats['hp']
+        self.boosts = {s: 0 for s in ['atk','def','spa','spd','spe','accuracy','evasion']}
+        self.status = None
+        self.status_counter = 0
+        self.sleep_turns = 0   # how many turns of sleep remain
+        self.volatiles = {}
+        self.fainted = False
         self.choice_locked = None
         self.item_revealed = False
 
@@ -278,16 +278,16 @@ class Pokemon:
         self.pp = {move.name: move.pp for move in self.moves}
 
     def reset(self):
-        self.current_hp     = self.stats['hp']
-        self.boosts         = {s: 0 for s in ['atk','def','spa','spd','spe','accuracy','evasion']}
-        self.status         = None
+        self.current_hp = self.stats['hp']
+        self.boosts = {s: 0 for s in ['atk','def','spa','spd','spe','accuracy','evasion']}
+        self.status = None
         self.status_counter = 0
-        self.sleep_turns    = 0
-        self.volatiles      = {}
-        self.fainted        = False
-        self.choice_locked  = None
-        self.item_revealed  = False
-        self.pp             = {move.name: move.pp for move in self.moves}
+        self.sleep_turns = 0
+        self.volatiles = {}
+        self.fainted = False
+        self.choice_locked = None
+        self.item_revealed = False
+        self.pp = {move.name: move.pp for move in self.moves}
 
     def effective_stat(self, stat):
         base_value = self.stats[stat]
@@ -318,9 +318,9 @@ class Pokemon:
         fainted_now = self.current_hp == 0 and not self.fainted
         if fainted_now:
             self.fainted = True
-            self.status  = None
+            self.status = None
             self.volatiles.clear()
-            self.boosts  = {s: 0 for s in self.boosts}
+            self.boosts = {s: 0 for s in self.boosts}
         return fainted_now
 
     def heal(self, amount):
@@ -331,12 +331,12 @@ class Pokemon:
         # can't paralyze Electric types, can't poison Poison/Steel types, can't sleep if already asleep.
         if self.status or self.fainted:
             return False
-        if status == 'burn'     and 'Fire'     in self.types: return False
-        if status == 'freeze'   and 'Ice'      in self.types: return False
+        if status == 'burn' and 'Fire' in self.types: return False
+        if status == 'freeze' and 'Ice' in self.types: return False
         if status == 'paralysis'and 'Electric' in self.types: return False
         if status in ('poison','toxic') and ('Poison' in self.types or 'Steel' in self.types): return False
 
-        self.status         = status
+        self.status = status
         self.status_counter = 0
         if status == 'sleep':
             self.sleep_turns = random.randint(1, 3)  # 1-3 turn sleep like gen 5+
@@ -363,10 +363,10 @@ class Pokemon:
 
 class Team:
     def __init__(self, name, pokemons, rating=1500):
-        self.name         = name
-        self.pokemons     = pokemons
+        self.name = name
+        self.pokemons = pokemons
         self.active_index = 0
-        self.rating       = rating
+        self.rating = rating
 
     def active(self):
         if 0 <= self.active_index < len(self.pokemons):
@@ -381,13 +381,13 @@ class Team:
 
     def switch(self, index):
         if index < 0 or index >= len(self.pokemons): return False
-        if self.pokemons[index].fainted:              return False
+        if self.pokemons[index].fainted: return False
         self.active_index = index
         return True
 
     def set_active(self, index):
         if index < 0 or index >= len(self.pokemons): return False
-        if self.pokemons[index].fainted:              return False
+        if self.pokemons[index].fainted: return False
         self.active_index = index
         return True
 
@@ -409,7 +409,7 @@ class Team:
 
 MOVES = {
     'Behemoth Blade':  Move('Behemoth Blade',  'Steel',    'Physical', 100, 100, 10),
-    'Play Rough':      Move('Play Rough',       'Fairy',    'Physical',  90,  90, 10, status='flinch',    status_chance=10),
+    'Play Rough':      Move('Play Rough',       'Fairy',    'Physical',  90,  90, 10, status='flinch', status_chance=10),
     'Close Combat':    Move('Close Combat',     'Fighting', 'Physical', 120, 100,  10, boosts={'def': -1, 'spd': -1}),
     'Protect':         Move('Protect',          'Normal',   'Status',     0,   0, 10, priority=4),
     'Oblivion Wing':   Move('Oblivion Wing',    'Flying',   'Special',   80, 100, 10, heal=0.75),  # heals 75% of dmg dealt, not 50%
@@ -831,11 +831,11 @@ class Battle:
         self.opponent_team = opponent_team
         self.player_team.reset()
         self.opponent_team.reset()
-        self.data          = data
-        self.turn          = 1
-        self.weather       = None
+        self.data = data
+        self.turn = 1
+        self.weather = None
         self.weather_turns = 0
-        self.terrain       = None
+        self.terrain = None
         # stealth_rock[0] = player side, stealth_rock[1] = opponent side
         self.stealth_rock  = [False, False]
 
@@ -861,11 +861,11 @@ class Battle:
         base_damage  = ((level_factor * move.power * attack) / defense) / 50 + 2
 
         #STAB (Same Type Attack Bonus), if move is same type as pokemon apply 1.5x otherwise 1.0x
-        stab          = 1.5 if move.type in attacker.types else 1.0
+        stab = 1.5 if move.type in attacker.types else 1.0
         effectiveness = type_effectiveness(move.type, defender.types)
         #Minor randomness in damage similarly to pokemon.
         random_factor = random.uniform(0.85, 1.0)
-        modifier      = stab * effectiveness * random_factor
+        modifier = stab * effectiveness * random_factor
 
         if attacker.status == 'burn' and move.category == 'Physical':
             # Guts ignores the burn penalty - strong ability on fighting types
@@ -898,7 +898,7 @@ class Battle:
     def apply_entry_hazard(self, pokemon):
         side = self.team_index(pokemon)
         if self.stealth_rock[side]:
-            effectiveness    = type_effectiveness('Rock', pokemon.types)
+            effectiveness = type_effectiveness('Rock', pokemon.types)
             if effectiveness > 0:
                 hazard_damage = max(1, int(pokemon.stats['hp'] * 0.125 * effectiveness))
                 fainted = pokemon.apply_damage(hazard_damage)
@@ -1084,7 +1084,7 @@ class Battle:
                 self.log(f"{target.nickname} fainted!")
 
             effectiveness = type_effectiveness(move.type, target.types)
-            if   effectiveness > 1:  self.log("It's super effective!")
+            if effectiveness > 1:  self.log("It's super effective!")
             elif effectiveness == 0: self.log("It had no effect!")
             elif effectiveness < 1:  self.log("It's not very effective.")
 
@@ -1703,15 +1703,15 @@ class Battle:
 def choose_moveset(move_pool):
     
     # Build a balanced moveset: try to include one physical, one special, one status move,
-    # then fill the 4th slot randomly from whatever's left.
+    # then fill the 4th slot randomly from whatever's left, start by building an empty list
     physical  = [m for m in move_pool if m in MOVES and MOVES[m].category == 'Physical']
-    special   = [m for m in move_pool if m in MOVES and MOVES[m].category == 'Special']
-    status    = [m for m in move_pool if m in MOVES and MOVES[m].category == 'Status']
-    chosen    = []
+    special = [m for m in move_pool if m in MOVES and MOVES[m].category == 'Special']
+    status = [m for m in move_pool if m in MOVES and MOVES[m].category == 'Status']
+    chosen = []
 
     if physical: chosen.append(random.choice(physical))
-    if special:  chosen.append(random.choice(special))
-    if status:   chosen.append(random.choice(status))
+    if special: chosen.append(random.choice(special))
+    if status: chosen.append(random.choice(status))
 
     remaining = [m for m in move_pool if m not in chosen and m in MOVES]
     while len(chosen) < 4 and remaining:
@@ -1743,13 +1743,13 @@ def build_team(name, pool, count=6, quality=1.0, rating=1500):
         sample_size = max(count, int(len(sorted_pool) * quality))
         effective_pool = sorted_pool[-sample_size:] if quality >= 0.5 else sorted_pool[:sample_size]
 
-    chosen   = random.sample(effective_pool, min(count, len(effective_pool)))
+    chosen = random.sample(effective_pool, min(count, len(effective_pool)))
     pokemons = []
     for species in chosen:
-        moves   = choose_moveset(species.get('moves', []))
-        item    = species.get('item')
+        moves = choose_moveset(species.get('moves', []))
+        item = species.get('item')
         ability = species.get('ability', 'Pressure')
-        if isinstance(item,    list): item    = random.choice(item)
+        if isinstance(item, list): item = random.choice(item)
         if isinstance(ability, list): ability = random.choice(ability)
         pokemons.append(Pokemon(
             species['name'], species['name'],
@@ -1764,13 +1764,13 @@ def serialize_team(team):
         'name': team.name,
         'pokemons': [
             {
-                'name':       p.nickname,
-                'species':    p.species,
-                'types':      p.types,
+                'name': p.nickname,
+                'species': p.species,
+                'types': p.types,
                 'base_stats': p.base_stats,
-                'moves':      [m.name for m in p.moves],
-                'item':       p.item,
-                'ability':    p.ability,
+                'moves':  [m.name for m in p.moves],
+                'item':  p.item,
+                'ability': p.ability,
             }
             for p in team.pokemons
         ],
@@ -1796,9 +1796,9 @@ def deserialize_team(data, rating=1500):
 #Calculates wins, losses, and streaks.
 def battle_record(data):
     history = data.get('history', [])
-    wins    = sum(1 for e in history if e.get('result') == 'win')
-    losses  = sum(1 for e in history if e.get('result') == 'loss')
-    streak  = 0
+    wins = sum(1 for e in history if e.get('result') == 'win')
+    losses = sum(1 for e in history if e.get('result') == 'loss')
+    streak = 0
     for entry in reversed(history[-10:]):
         result = entry.get('result')
         if streak == 0:
@@ -1816,11 +1816,11 @@ def show_user_summary(data):
     next_thr, reward = next_milestone(rating)
 
     print(f"\n{'─'*40}")
-    print(f"  Elo: {rating}  |  Rank: {title}")
+    print(f"  Elo: {rating} |  Rank: {title}")
     print(f"  Record: {wins}W / {losses}L", end='')
-    if streak > 1:   print(f"  |  Win streak: {streak}")
+    if streak > 1: print(f"  |  Win streak: {streak}")
     elif streak < -1: print(f"  |  Loss streak: {-streak}")
-    else:             print()
+    else: print()
     if next_thr:
         print(f"  Next milestone: {next_thr} Elo  —  {reward}")
     print(f"  Saved teams: {len(data.get('teams', []))}")
@@ -1834,10 +1834,10 @@ def show_battle_history(data, limit=10):
         return
     print(f"\nLast {min(limit, len(history))} battles:")
     for entry in history[-limit:]:
-        result  = 'W' if entry.get('result') == 'win' else 'L'
-        team    = entry.get('team', '?')
-        opp     = ', '.join(entry.get('opponent_team', []))
-        change  = entry.get('rating_change', 0)
+        result = 'W' if entry.get('result') == 'win' else 'L'
+        team = entry.get('team', '?')
+        opp = ', '.join(entry.get('opponent_team', []))
+        change = entry.get('rating_change', 0)
         opp_elo = entry.get('opponent_rating', '?')
         print(f"  {result} | {team} vs [{opp}] (opp Elo {opp_elo}) | {change:+}")
 
